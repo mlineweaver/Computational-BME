@@ -1,0 +1,12 @@
+import csv
+#with open("UpdatedMetaData (1).csv", newline="") as f:
+    #reader = csv.reader(f)
+    #headers = next(reader) #Get the first row
+    #for h in headers:
+        #print(h)
+import csv
+with open("UpdatedLuminex.csv", newline="") as f:
+    reader = csv.reader(f)
+    headers = next(reader)
+    for h in headers:
+        print(h)
